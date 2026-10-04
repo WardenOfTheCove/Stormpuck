@@ -1,0 +1,128 @@
+# =========================================
+# Node / React / Vite / Next.js
+# =========================================
+
+node_modules/
+
+# Vite
+dist/
+.vite/
+
+# Next.js
+.next/
+out/
+
+# Build output
+build/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+
+# Keep example env files
+!.env.example
+!**/.env.example
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+bun-debug.log*
+
+# Vercel
+.vercel/
+
+
+# =========================================
+# Python / FastAPI
+# =========================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python packaging
+*.egg
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.pyright/
+.ruff_cache/
+
+# Coverage
+.coverage
+.coverage.*
+htmlcov/
+
+# FastAPI environment files
+**/.env
+**/.env.local
+**/.env.*.local
+!**/.env.example
+
+
+# =========================================
+# Generated / Runtime Files
+# =========================================
+
+# Uploads
+uploads/
+**/uploads/
+
+# Generated videos
+output/
+outputs/
+generated/
+**/output/
+**/outputs/
+**/generated/
+
+# Temporary files
+tmp/
+temp/
+**/tmp/
+**/temp/
+
+# Video processing
+frames/
+**/frames/
+
+# =========================================
+# IDE
+# =========================================
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+
+# =========================================
+# OS
+# =========================================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+
+# =========================================
+# Secrets / Credentials
+# =========================================
+
+*.pem
+*.key
+*.crt
+credentials.json
+secrets.json
